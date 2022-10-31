@@ -3,8 +3,8 @@ main:
     url: "/"
     weight: 1
   - name: "Reports"
-    url: "cse15l-lab-reports/report/"
+    url: "/report/"
     weight: 2
   - name: "About"
-    url: "cse15l-lab-reports/about/"
+    url: "/about/"
     weight: 3
