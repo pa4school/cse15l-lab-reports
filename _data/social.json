@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/phuanh004",
+    "image": "/assets/icons/github.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/phuanh004",
+    "image": "/assets/icons/twitter.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/phuanh004/",
+    "image": "/assets/icons/linkedin.svg"
+  }
+]

@@ -1,0 +1,15 @@
+presets:
+  # This entry is purely an example. It is not the default JPT preset, nor is it available as a
+  # built-in.
+  default:
+    formats: [webp, original] # Order matters!
+
+    # quality
+    format_quality:
+      jpg: 95
+      jp2: 95
+      webp: 95
+
+  # You can use this as jpt-webp. All following presets follow the same pattern.
+  webp:
+    formats: [webp, original]

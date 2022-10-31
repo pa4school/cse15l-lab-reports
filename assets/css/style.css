@@ -1,0 +1,255 @@
+---
+---
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "assets/css/custom.css";
+@import "assets/css/syntax/monokai";
+
+@layer base {
+  /**
+ * @license
+ *
+ * Font Family: Switzer
+ * Designed by: Jérémie Hornus
+ * URL: https://www.fontshare.com/fonts/switzer
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Switzer Variable(Variable font)
+ * Switzer Variable Italic(Variable font)
+ * Switzer Thin
+ * Switzer Thin Italic
+ * Switzer Extralight
+ * Switzer Extralight Italic
+ * Switzer Light
+ * Switzer Light Italic
+ * Switzer Regular
+ * Switzer Italic
+ * Switzer Medium
+ * Switzer Medium Italic
+ * Switzer Semibold
+ * Switzer Semibold Italic
+ * Switzer Bold
+ * Switzer Bold Italic
+ * Switzer Extrabold         
+ * Switzer Extrabold Italic
+ * Switzer Black
+ * Switzer Black Italic
+ *
+*/
+
+  /**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 900.0)
+
+*/
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Variable.ttf");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  /**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 900.0)
+
+*/
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-VariableItalic.ttf");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Thin.ttf");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-ThinItalic.ttf");
+    font-weight: 100;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Extralight.ttf");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-ExtralightItalic.ttf");
+    font-weight: 200;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Light.ttf");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-LightItalic.ttf");
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Italic.ttf");
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Medium.ttf");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-MediumItalic.ttf");
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Semibold.ttf");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-SemiboldItalic.ttf");
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Bold.ttf");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-BoldItalic.ttf");
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Extrabold.ttf");
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-ExtraboldItalic.ttf");
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-Black.ttf");
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Switzer";
+    src: local("Switzer"), local("switzer"), url("../fonts/Switzer-BlackItalic.ttf");
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  /* For logo */
+  @font-face {
+    font-family: "Haptic Pro";
+    src: local("Haptic Pro"), local("haptic-pro"), url("../fonts/HapticPro-Bold.ttf");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+}
+
+@layer components {
+  .heading {
+    em,
+    strong {
+      @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-2;
+
+      font-weight: inherit;
+      font-style: normal;
+    }
+  }
+  .logo {
+    h2 {
+      strong {
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-2;
+        font-weight: inherit;
+        font-style: normal;
+      }
+    }
+  }
+}

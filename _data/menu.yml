@@ -1,0 +1,10 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Reports"
+    url: "cse15l-lab-reports/report/"
+    weight: 2
+  - name: "About"
+    url: "cse15l-lab-reports/about/"
+    weight: 3
