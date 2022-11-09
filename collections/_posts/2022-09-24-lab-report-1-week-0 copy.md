@@ -14,4 +14,4 @@ In this lab I learned how to use basic Markdown syntax and set up a basic blog u
 
 ### Screenshot of the markdown
 
-![screenshot](../../2022/week0/screenshot.png)
+![screenshot](../../assets/images/2022/week0/screenshot.png)

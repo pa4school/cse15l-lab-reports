@@ -81,13 +81,13 @@ For example, my code will How to get your username in Fall 2022 as shown here by
 
 ## Result: Here are your first time login results to the remote server using SSH if you successfully connect to the server.
 
-![remote](../../.assets/images/2022/week1/remote.png)
+![remote](../../assets/images/2022/week1/remote.png)
 
 # Trying Some Commands
 
 A few common commands to navigate and check directories. You can memorize it for faster action in the future.
 
-![command](../../.assets/images/2022/week1/cmd.png)
+![command](../../assets/images/2022/week1/cmd.png)
 
 Or play more with [linux command line cheat sheet](https://lmgtfy.app/?q=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dlinux%2Bcommand%2Bline%2Bcheat%2Bsheet)
 
@@ -109,13 +109,13 @@ scp <file> <username>@<ip-address>:<destination>
 
 Here is an example where I move a file of mine, which is named `WhereAmI.java` from my laptop to cse computer on the home `~` directory remotely with `scp`.
 
-![scp](../../.assets/images/2022/week1/scp.png)
+![scp](../../assets/images/2022/week1/scp.png)
 
 # Setting an SSH Key
 
 ## Why SSH Key?
 
-![sshfail](../../.assets/images/2022/week1/ssh_nopass_benefit.png)
+![sshfail](../../assets/images/2022/week1/ssh_nopass_benefit.png)
 
 If you notice, on the example above I logged in wrongly 8 times with the reason that my password was too long.
 
@@ -154,7 +154,7 @@ Now, you can log in to the remote computer without a password.
 
 ## Result
 
-![sshnopass](../../.assets/images/2022/week1/ssh_nopass.png)
+![sshnopass](../../assets/images/2022/week1/ssh_nopass.png)
 
 # Optimizing Remote Running
 
